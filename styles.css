@@ -1,0 +1,124 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header, footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+section.banner {
+    background-color: #f0f0f0;
+    padding: 50px 0;
+    text-align: center;
+}
+
+section.movies {
+    padding: 50px 0;
+}
+
+.movie {
+    margin-bottom: 30px;
+}
+
+.movie img {
+    width: 100%;
+    max-width: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
+.movie h3 {
+    margin-top: 20px;
+}
+
+.movie p {
+    margin-bottom: 20px;
+}
+
+.movie a {
+    display: block;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    width: 100px;
+    margin: 0 auto;
+}
+
+.movie a:hover {
+    background-color: #555;
+}
+
+section.contact {
+    padding: 50px 0;
+    text-align: center;
+}
+
+section.contact form {
+    margin-top: 20px;
+}
+
+section.contact form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+section.contact form input,
+section.contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+section.contact form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+section.contact form button:hover {
+    background-color: #555;
+}
+#irlogo{
+    background-image: url("https://www.irctc.co.in/nget/assets/images/secondry-logo.png");
+    width: 80px;
+    height: 80px;
+    background-size: cover;
+}
+#irlogo1{
+    background-image: url("https://www.irctc.co.in/nget/assets/images/secondry-logo.png");
+    width: 80px;
+    height: 80px;
+    background-size: cover;
+    margin-right: 500px;
+    margin-top: 200px;
+}

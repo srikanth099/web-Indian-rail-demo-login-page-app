@@ -1,0 +1,139 @@
+<html>
+    <head>
+        <tittle>Assisment 1 on GRID's</tittle>
+    </head>
+    <style>
+        /* body{
+            background-color: goldenrod;
+        } */
+        body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+    }
+    #header {
+        background-color: #6bf316;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+        height: 150px;
+    }
+    .logo {
+        font-size: 24px;
+        font-weight: bold;
+    }
+    nav {
+        display: inline-block;
+        
+    }
+    nav a {
+        color: #fff;
+        text-decoration: none;
+        margin: 0 10px;
+    }
+        .conatiner{
+            background-color: orange;
+            width: auto;
+            height: auto;
+            /* display: flex; */
+            display: grid;
+            /* grid-template-rows: 155px 155px 155px ; */
+            /* grid-template-columns: 155px 155px 155px; */
+            /* grid-template-rows: 1fr 1fr 1fr; */
+            /* grid-template-columns: 1fr 1fr 1fr; */
+            grid-template-rows: repeat(3,1fr);
+            grid-template-columns: repeat(3, 1fr);
+            /* row-gap: 10px;
+            column-gap: 10px; */
+        }
+        .grid-items{
+            background-color: white;
+             width: auto;
+            height: auto; 
+            margin: 19px;
+            border-radius: 15px;
+
+        }
+        #ele1{
+            grid-column-start: 1;
+            grid-column-end: 4  ;
+            height: 90px;
+            text-align: center;
+           
+        }
+        /* #ele3{
+            grid-row-start: 1;
+            grid-row-end: 3 ;
+
+        } */
+        #ele6{
+            grid-column-start: 1;
+            grid-column-end: 4;
+            height: 90px;
+            /* margin-bottom: 100px; */
+            text-align: center;
+        }
+        #ele4{
+            grid-column-start: 2;
+            grid-column-end: 4;
+            text-align: center;
+        }
+        #ele2{
+            height: 240px;
+            text-align: center;
+        }
+        #logo1{
+          height: 70px;
+          width: 70px;
+          /* background-color: aquamarine; */
+          background-image: url("https://www.irctc.co.in/nget/assets/images/secondry-logo.png");
+          border-radius: 100px;
+          background-size: cover;
+        }
+        #logo2{
+          height: 70px;
+          width: 70px;
+          /* background-color: aquamarine; */
+          background-image: url("https://www.irctc.co.in/nget/assets/images/logo.png");
+          border-radius: 100px;
+          background-size: cover;
+        
+        }
+        #indname{
+            background-color: red;
+            font-size: 20px;
+            font-weight: bold;
+            width: 700px;
+            height: 90px;
+            text-align: center;
+            
+        
+        }
+    </style>
+        <body>
+<header>
+    <div class="conatiner" id="header">
+    <div class="grid-items" id="logo1"></div>
+    <div class="grid-items" id="indname"><h1>INDIAN RAILWAYS</h1></div>
+    <div class="grid-items" id="logo2"></div>
+</div>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
+            <!-- <h1 class="text-center">GRIDS in CSS</h1>\ -->
+            <div class="conatiner">
+                <div class="grid-items" ><h1>Header</h1></div>
+                <div class="grid-items" ><h1>Sidebar</h1></div>
+                <div class="grid-items" >3</div>
+                <div class="grid-items" ><h1>Main Content</h1></div>
+                <div class="grid-items">5</div>
+                <div class="grid-items" id="ele6"><h1>Footer</h1></div>
+                <div class="grid-items">7</div>
+                <div class="grid-items">8</div>
+            </div>
+        </body>
+</html>
